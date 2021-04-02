@@ -1,0 +1,79 @@
+/* you can add to or change this. */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(57, 173, 219)
+}
+h1 {
+    font-family: 'Satisfy', cursive;
+    text-align: center;
+    vertical-align: middle;
+    color:rgb(223, 25, 88)
+}
+.syne {
+    font-family: 'Syne Mono', monospace;
+    color: rgb(77, 192, 228);
+    text-align: center;
+    vertical-align: middle;
+    font-weight: bold;
+}
+
+#game {
+    border: 2px solid white;
+    width: 525px;
+    height: 295px;
+    display: inline-block;
+    background-color:rgb(8, 66, 175);
+}
+
+.red {
+  
+    background-color: crimson;
+    
+}
+
+.blue {
+   
+    background-color: skyblue;
+    
+}
+
+.green {
+    
+    background-color: forestgreen;
+}
+  
+.orange {
+   
+    background-color: coral;
+    
+}
+
+.purple {
+   
+    background-color: midnightblue;
+    
+}
+
+.white{
+    background-color: floralwhite;
+}
+
+.flex {
+    display: flex
+    position: relative
+}
+.flex-child {
+    flex: 1;
+    display:inline-block;
+    border: 1px solid rgb(214, 71, 28);
+    width: 100px;
+    height: 140px;
+    margin: 2px;
+    color: floralwhite;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: bold;
+}
